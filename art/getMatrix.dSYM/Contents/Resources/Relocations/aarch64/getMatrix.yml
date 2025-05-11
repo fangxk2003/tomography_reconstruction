@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fangxk2003/Desktop/ct/art/getMatrix'
+relocations:     []
+...
