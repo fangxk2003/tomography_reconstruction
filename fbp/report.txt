@@ -1,0 +1,18 @@
+https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h
+cannot support 16-bit image writing
+
+
+clang++ SheppLogan2Sino.cpp -o SheppLogan2Sino `pkg-config --cflags --libs opencv4`
+
+clang++ FilteredBackProjection.cpp -o FilteredBackProjection \
+  -I/opt/homebrew/include -L/opt/homebrew/lib -lfftw3 \
+  `pkg-config --cflags --libs opencv4`
+
+clang++ FBP_video.cpp -o FBP_video \
+  -I/opt/homebrew/include -L/opt/homebrew/lib -lfftw3 \
+  `pkg-config --cflags --libs opencv4`
+
+clang++ BackProjection.cpp -o Backprojection \
+  -I/opt/homebrew/include -L/opt/homebrew/lib -lfftw3 \
+  `pkg-config --cflags --libs opencv4`
+
